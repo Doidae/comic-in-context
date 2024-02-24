@@ -1,12 +1,12 @@
 import React from 'react';
 import './App.css';
 
-import UserInterface from "./UserInterface"
+import UserInterface from './UserInterface';
 import StylesContext from "./StylesContext";
 
 function App() {
   const stylin = {
-  background: "#1ECD97",
+    background: "#1ECD97",
     display: "inline-block", 
     width: 120,
     height: 55,
@@ -34,4 +34,4 @@ function App() {
     </main>
   );
 }             
-
+export default App;
